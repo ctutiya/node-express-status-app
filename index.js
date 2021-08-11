@@ -26,7 +26,7 @@ app.get('/api/cpus', (req, res) => {
     let result
 
     cpu.map((value, index) => {
-        if (index) result = `CPU: ${value.model}. Speed: ${value.speed}`
+        if (index === 1) result = `CPU: ${value.model}. Speed: ${value.speed}`
         else result += `<br />CPU: ${value.model}. Speed: ${value.speed}`
     })
 
