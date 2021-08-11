@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "byte-size": "^8.0.0",
+    "check-disk-space": "^3.0.1",
     "express": "^4.17.1"
   }
 }
